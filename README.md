@@ -79,7 +79,7 @@ The following code lists the directory structure of FasterTransformer:
 ```
 /src/fastertransformer: source code of FasterTransformer
     |--/cutlass_extensions: Implementation of cutlass gemm/kernels.
-    |--/kernels: CUDA kernels for different models/layers and operations, like addBiasResiual.
+    |--/kernels: CUDA kernels for different models/layers and operations, like addBiasResidual.
     |--/layers: Implementation of layer modules, like attention layer, ffn layer.
     |--/models: Implementation of different models, like BERT, GPT.
     |--/tensorrt_plugin: encapluate FasterTransformer into TensorRT plugin.
